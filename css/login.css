@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body, a, input{
+    font-family: 'SCoreDream';
+}
+
+#wrap{
+    width: 1840px;
+    height: 469px;
+    padding: 40px;
+}
+
+.login{
+    width: 480px;
+    padding: 20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.1);
+}
+
+.login h1{
+    margin-bottom: 50px;
+}
+
+.login h1>img{
+    width: 87px;
+    height: 25px;
+}
+
+.login form {
+    margin-bottom: 20px;
+}
+
+.login form label{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.login form #login{
+    display: inline-block;
+    width: 440px;
+    height: 56px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #666;
+    padding: 0 20px;
+}
+
+.login form #login::placeholder
+{
+    font-size: 12px;
+}
+
+.login form #login:active{
+    border-color: #0000ff;
+}
+
+.login p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.login p>a{
+    font-size: 12px;
+    color:#0000ff;
+    font-weight: 500;
+}
+
+.login p>a:hover{
+    text-decoration: underline;
+}
+
+.login #end{
+    width: 440px;
+    height: 56px;
+    border:none;
+    color: #fff;
+    background-color: #0000ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.login #end:hover{
+    font-size:16px;
+}
+
